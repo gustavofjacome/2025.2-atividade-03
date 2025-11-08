@@ -18,4 +18,6 @@
 - [ ] [Atividade 05 - landing page](landingpage.md)
 - [ ] [Atividade 06](replica.md)
 
-(coloquei as tabelas e cards em abas diferentes, lembrar de colocar o link do vercel aqui)
+MELHORAR O DESIGN DA PAGINA INICIAL
+
+ADICIONAR NO VERCELL
