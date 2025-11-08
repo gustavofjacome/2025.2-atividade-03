@@ -9,16 +9,19 @@ Criar uma lista de cards estilizados em HTML5 que apresentem informações sobre
 Cada card deve ter:
 
 ### 1. **Título (Header)**
+
 - Nome da disciplina
 - Nome do(s) professor(es)
 
 ### 2. **Conteúdo (Content)**
+
 - Objetivo da disciplina
 - Carga horária
 - Tecnologias utilizadas
 - Conceitos abordados
 
 ### 3. **Rodapé (Footer)**
+
 - Horários das aulas
 - Salas/laboratórios utilizados
 
@@ -28,15 +31,16 @@ Cada card deve ter:
 
 ### Informações da Disciplina
 
-**Disciplina:** Web Design  
+**Disciplina:** Web Design
 **Professores:** Danielle Freitas e Leonardo Minora
 
-**Objetivo:**  
+**Objetivo:**
 Capacitar os alunos no desenvolvimento de interfaces web modernas e responsivas, utilizando as principais tecnologias e boas práticas de desenvolvimento front-end.
 
 **Carga horária:** 80 horas
 
 **Tecnologias:**
+
 - HTML
 - CSS
 - JavaScript
@@ -44,10 +48,12 @@ Capacitar os alunos no desenvolvimento de interfaces web modernas e responsivas,
 - VS Code
 
 **Conceitos:**
+
 - Controle de versão de código
 - Design de interfaces
 
-**Horários:**  
+**Horários:**
+
 - Segunda-feira: 14h00 às 18h00 - Laboratório 6
 - Terça-feira: 14h00 às 18h00 - Laboratório 6
 
@@ -71,7 +77,7 @@ Crie um arquivo `index.html` com a estrutura básica do HTML5:
 <body>
     <div class="container">
         <h1>Disciplinas Ofertadas</h1>
-        
+      
         <!-- Card da disciplina -->
         <div class="card">
             <!-- Título do Card -->
@@ -79,15 +85,15 @@ Crie um arquivo `index.html` com a estrutura básica do HTML5:
                 <h2>Web Design</h2>
                 <p class="professores">Prof. Danielle Freitas e Prof. Leonardo Minora</p>
             </div>
-            
+          
             <!-- Conteúdo do Card -->
             <div class="card-content">
                 <h3>Objetivo</h3>
                 <p>Capacitar os alunos no desenvolvimento de interfaces web modernas e responsivas, utilizando as principais tecnologias e boas práticas de desenvolvimento front-end.</p>
-                
+              
                 <h3>Carga Horária</h3>
                 <p>80 horas</p>
-                
+              
                 <h3>Tecnologias</h3>
                 <ul class="tecnologias">
                     <li>HTML</li>
@@ -96,14 +102,14 @@ Crie um arquivo `index.html` com a estrutura básica do HTML5:
                     <li>GitHub</li>
                     <li>VS Code</li>
                 </ul>
-                
+              
                 <h3>Conceitos</h3>
                 <ul class="conceitos">
                     <li>Controle de versão de código</li>
                     <li>Design de interfaces</li>
                 </ul>
             </div>
-            
+          
             <!-- Rodapé do Card -->
             <div class="card-footer">
                 <h3>Horários e Locais</h3>
@@ -111,7 +117,7 @@ Crie um arquivo `index.html` com a estrutura básica do HTML5:
                 <p><strong>Terça-feira:</strong> 14h00 às 18h00 - Laboratório 6</p>
             </div>
         </div>
-        
+      
     </div>
 </body>
 </html>
@@ -250,11 +256,11 @@ body {
     .container h1 {
         font-size: 2em;
     }
-    
+  
     .card-header h2 {
         font-size: 1.5em;
     }
-    
+  
     .tecnologias li {
         display: block;
         margin: 5px 0;
@@ -280,14 +286,14 @@ Depois de implementar o card básico, tente os seguintes desafios:
 
 ## ✅ Checklist de Entrega
 
-- [ ] Arquivo `index.html` criado com a estrutura correta
-- [ ] Arquivo `styles.css` criado com estilização adequada
-- [ ] Card contém título com nome da disciplina e professores
-- [ ] Card contém conteúdo com objetivo, carga horária, tecnologias e conceitos
-- [ ] Card contém rodapé com horários e locais
-- [ ] Design é responsivo e funciona em diferentes tamanhos de tela
-- [ ] Código está bem indentado e organizado
-- [ ] Projeto está versionado no GitHub
+- [X] Arquivo `index.html` criado com a estrutura correta
+- [X] Arquivo `styles.css` criado com estilização adequada
+- [X] Card contém título com nome da disciplina e professores
+- [X] Card contém conteúdo com objetivo, carga horária, tecnologias e conceitos
+- [X] Card contém rodapé com horários e locais
+- [X] Design é responsivo e funciona em diferentes tamanhos de tela
+- [X] Código está bem indentado e organizado
+- [X] Projeto está versionado no GitHub
 
 ---
 

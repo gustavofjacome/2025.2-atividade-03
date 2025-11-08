@@ -1,0 +1,133 @@
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.card-header {
+    background: linear-gradient(135deg, #4CAF50 0%, #0b570d 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-header h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.card-header .professores {
+    font-size: 1.1em;
+    font-style: italic;
+    opacity: 0.9;
+    color: white;
+}
+
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content h3 {
+    color: #4CAF50;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.card-content p {
+    color: #555;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.card-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card-content ul li {
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-left: 4px solid #4CAF50;
+    border-radius: 4px;
+    color: #333;
+}
+
+.tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tecnologias li {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 15px;
+    margin: 0;
+    border-radius: 20px;
+    border-left: none;
+    font-size: 0.9em;
+}
+
+
+.card-footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.card-footer h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.card-footer p {
+    color: #666;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.card-footer strong {
+    color: #4CAF50;
+}
+
+/* reesponsividade */
+@media (max-width: 768px) {
+    .card-header h2 {
+        font-size: 1.5em;
+    }
+    
+    .card-header .professores {
+        font-size: 1em;
+    }
+    
+    .card-content {
+        padding: 20px;
+    }
+    
+    .tecnologias {
+        flex-direction: column;
+    }
+    
+    .tecnologias li {
+        display: block;
+        margin: 5px 0;
+    }
+}

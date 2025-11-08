@@ -53,7 +53,7 @@ td ul li {
     color: #555;
 }
 
-/* Responsividade para dispositivos móveis */
+/* Responsividade para celular */
 @media screen and (max-width: 768px) {
     table {
         font-size: 14px;
