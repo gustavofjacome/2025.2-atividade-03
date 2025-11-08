@@ -1,0 +1,184 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 16px;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navegação */
+nav {
+    width: 100%; 
+    background-color: #333; 
+    margin-bottom: 20px; 
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none; 
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline-block; 
+    margin: 0 15px; 
+}
+nav a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+}
+nav a:hover {
+    background-color: #555;
+}
+nav li.active a {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+/* Títulos */
+h1 {
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h3 { 
+    font-size: 24px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 15px;
+}
+h4 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+h5 {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+h6 {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* Parágrafos */
+p {
+    font-size: 14px;
+    color: #000000;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Divs */
+div {
+    text-align: left;
+}
+
+/* Spans */
+span {
+    color: #0066cc;
+    font-size: 14px;
+}
+
+/* Classes utilitárias */
+.destaque {
+    color: #0f5312; 
+    font-size: 16px;
+}
+
+.secao {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.link-social {
+    color: #16a085;
+    font-size: 15px;
+}
+.link-social a {
+    color: #4CAF50; 
+    text-decoration: none;
+    font-weight: bold;
+}
+.link-social a:hover {
+    text-decoration: underline;
+}
+
+.tecnologia {
+    color: #4CAF50; 
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.titulo-direita {
+    text-align: center; 
+    color: #4CAF50; 
+    font-size: 28px;
+    padding-right: 20px; 
+}
+
+.caixa {
+    
+    border: 1px solid #ddd; 
+    border-top: 4px solid #4CAF50; 
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    .titulo-direita {
+        text-align: center;
+        padding-right: 0;
+        font-size: 24px;
+    }
+    
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .container {
+        padding: 10px;
+    }
+}
