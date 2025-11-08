@@ -1,10 +1,13 @@
 # Atividade: Criando Tabelas em HTML5 com Estilização
 
 ## Objetivo
+
 Aprender a criar e estilizar tabelas em HTML5 utilizando CSS para apresentar informações de forma organizada e visualmente atraente.
 
 ## Descrição da Atividade
+
 Você deve criar uma tabela em HTML5 que apresente informações sobre disciplinas de um curso. A tabela deve conter três colunas:
+
 - **Disciplina**: Nome da disciplina
 - **Tecnologias**: Ferramentas e tecnologias utilizadas
 - **Conceitos**: Conceitos principais abordados
@@ -26,7 +29,7 @@ Abaixo está um exemplo completo de como criar e estilizar a tabela para a disci
 </head>
 <body>
     <h1>Disciplinas do Curso</h1>
-    
+  
     <table>
         <thead>
             <tr>
@@ -132,7 +135,7 @@ td ul li {
     table {
         font-size: 14px;
     }
-    
+  
     th, td {
         padding: 10px;
     }
@@ -141,14 +144,14 @@ td ul li {
 
 ## Instruções para Realizar a Atividade
 
-- [ ] **Crie um arquivo HTML** chamado `disciplinas.html`
-- [ ] **Crie um arquivo CSS** chamado `disciplinas.css`
-- [ ] **Crie a estrutura inicial do HTML 5** no arquivo `disciplinas.html`
-- [ ] **Defina o título da página** coloque a identificação no arquivo `disciplinas.html`. Lembre de atualizar também o `title`.
-- [ ] **Copie o código CSS** fornecido acima para o arquivo `disciplinas.css`
-- [ ] **Abra o arquivo HTML** em seu navegador para visualizar a tabela
-- [ ] **Experimente modificar** as cores, tamanhos e estilos para personalizar sua tabela
-- [ ] **Adicione as disciplinas**: matemática discreta, programação de computadores , e sistemas digitais
+- [X] **Crie um arquivo HTML** chamado `disciplinas.html`
+- [X] **Crie um arquivo CSS** chamado `disciplinas.css`
+- [X] **Crie a estrutura inicial do HTML 5** no arquivo `disciplinas.html`
+- [X] **Defina o título da página** coloque a identificação no arquivo `disciplinas.html`. Lembre de atualizar também o `title`.
+- [X] **Copie o código CSS** fornecido acima para o arquivo `disciplinas.css`
+- [X] **Abra o arquivo HTML** em seu navegador para visualizar a tabela
+- [X] **Experimente modificar** as cores, tamanhos e estilos para personalizar sua tabela
+- [X] **Adicione as disciplinas**: matemática discreta, programação de computadores , e sistemas digitais
 
 ## Desafios Adicionais (Opcional)
 
