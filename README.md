@@ -8,15 +8,15 @@
 - [X] criar link para atividades abaixo
   - [X] criar link para o arquivo tabelas.html (atividade 3 - [ATIVIDADE 3](https://2025-2-atividade-03-nine.vercel.app/disciplinas.html))
   - [X] criar link para o arquivo cards.html (atividade 4 - [ATIVIDADE 4](https://2025-2-atividade-03-nine.vercel.app/cards.html))
-  - [ ] criar link para o arquivo landingpage.html (atividade 5)
-  - [ ] criar link para o arquivo replica.html (atividade 6)
+  - [X] criar link para o arquivo landingpage.html (atividade 5)
+  - [X] criar link para o arquivo replica.html (atividade 6)
   - 
 
 ## Atividades
 
-- [X] [ATIVIDADE 1](https://2025-2-atividade-01-html-introducao.vercel.app/)
-- [X] [ATIVIDADE 2](https://2025-2-atividade-02-css-introducao.vercel.app/)
-- [X] [ATIVIDADE 3](https://2025-2-atividade-03-nine.vercel.app/disciplinas.html)
-- [X] [ATIVIDADE 4](https://2025-2-atividade-03-nine.vercel.app/cards.html)
-- [ ] [Atividade 05 - landing page](landingpage.md)
-- [ ] [Atividade 06](replica.md)
+- [X] [ATIVIDADE 1 - HTML BASICO](https://2025-2-atividade-01-html-introducao.vercel.app/)
+- [X] [ATIVIDADE 2 - CSS BASICO](https://2025-2-atividade-02-css-introducao.vercel.app/)
+- [X] [ATIVIDADE 3 - TABELA](https://2025-2-atividade-03-khaki.vercel.app/disciplinas.html)
+- [X] [ATIVIDADE 4 - CARDS](https://2025-2-atividade-03-khaki.vercel.app/cards.html)
+- [ ] [ATIVIDADE 5 - LANDING PAGE](https://2025-2-atividade-03-khaki.vercel.app/landingpage.html) (esperando a postagem daa atividade para fazer)
+- [ ] [ATIVIDADE 6 - RÉPLICA](https://2025-2-atividade-03-khaki.vercel.app/replica.html) (esperando a postagem daa atividade para fazer)
