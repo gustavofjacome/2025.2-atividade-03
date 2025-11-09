@@ -20,5 +20,3 @@
 - [X] [ATIVIDADE 4](https://2025-2-atividade-03-nine.vercel.app/cards.html)
 - [ ] [Atividade 05 - landing page](landingpage.md)
 - [ ] [Atividade 06](replica.md)
-
-MELHORAR O DESIGN DA PAGINA INICIAL
