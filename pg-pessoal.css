@@ -1,10 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     font-size: 16px;
@@ -14,30 +12,32 @@ body {
     line-height: 1.6;
 }
 
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Navegação */
+
 nav {
     width: 100%; 
     background-color: #333; 
     margin-bottom: 20px; 
     padding: 10px 0;
 }
+
 nav ul {
     list-style: none; 
     text-align: center; 
     padding: 0;
     margin: 0;
 }
+
 nav li {
     display: inline-block; 
     margin: 0 15px; 
 }
+
 nav a {
     text-decoration: none; 
     color: white; 
@@ -47,50 +47,59 @@ nav a {
     border-radius: 5px;
     transition: background-color 0.3s ease; 
 }
+
 nav a:hover {
     background-color: #555;
 }
+
 nav li.active a {
     background-color: #4CAF50; 
     color: white;
 }
 
-/* Títulos */
+/* titulos */
 h1 {
     font-size: 36px;
     color: #000000;
     text-align: center;
     margin-bottom: 20px;
 }
+
 h2 {
     font-size: 28px;
-    color: #000000;
+    color: #666;
     text-align: center;
     margin-bottom: 30px;
 }
+
 h3 { 
     font-size: 24px;
-    color: #000000;
+    color: #4CAF50;
     text-align: left;
     margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #4CAF50;
 }
+
 h4 {
     font-size: 20px;
     color: #000000;
     margin-bottom: 10px;
 }
+
 h5 {
     font-size: 18px;
     color: #000000;
     margin-bottom: 10px;
 }
+
 h6 {
     font-size: 16px;
     color: #000000;
     margin-bottom: 10px;
 }
 
-/* Parágrafos */
+
 p {
     font-size: 14px;
     color: #000000;
@@ -98,18 +107,18 @@ p {
     margin-bottom: 10px;
 }
 
-/* Divs */
+
 div {
     text-align: left;
 }
 
-/* Spans */
+
 span {
     color: #0066cc;
     font-size: 14px;
 }
 
-/* Classes utilitárias */
+
 .destaque {
     color: #0f5312; 
     font-size: 16px;
@@ -124,30 +133,37 @@ span {
     color: #16a085;
     font-size: 15px;
 }
+
 .link-social a {
     color: #4CAF50; 
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.2s ease;
 }
+
 .link-social a:hover {
     text-decoration: underline;
+    color: #45a049;
 }
 
 .tecnologia {
     color: #4CAF50; 
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
+    background-color: #e8f5e9;
+    padding: 4px 12px;
+    border-radius: 4px;
+    display: inline-block;
 }
 
 .titulo-direita {
     text-align: center; 
     color: #4CAF50; 
-    font-size: 28px;
+    font-size: 32px;
     padding-right: 20px; 
 }
 
 .caixa {
-    
     border: 1px solid #ddd; 
     border-top: 4px solid #4CAF50; 
     padding: 20px;
@@ -155,9 +171,15 @@ span {
     border-radius: 8px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Responsividade */
+.caixa:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* responsividade */
 @media (max-width: 768px) {
     h1 {
         font-size: 28px;
