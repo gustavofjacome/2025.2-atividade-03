@@ -3,26 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>replica a Fazer</title>
-    <link rel="stylesheet" href="../css/pg-pessoal.css">
-    <link rel="stylesheet" href="../css/disciplinas.css">
+    <title>Gemini - Google AI</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:400,500&family=Roboto:400,500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/replica.css">
 </head>
 <body>
+    
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <button class="menu-btn" aria-label="Menu">
+                <span class="material-symbols-outlined menu-icon">menu</span>
+            </button>
+        </div>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="disciplinas.html">Disciplinas (Tabela)</a></li>
-            <li><a href="cards.html">Disciplinas (Cards)</a></li>
-            <li><a href="landingpage.html">Landing Page</a></li>
-            <li class="active"><a href="replica.html">Replica</a></li>
-        </ul>
-    </nav>
+        <div class="new-chat">
+            <button class="new-chat-btn">
+                <span class="material-symbols-outlined icon">edit</span>
+                <span class="text">Nova conversa</span>
+            </button>
+            <button class="expand-btn" aria-label="Expandir">
+                <span class="material-symbols-outlined icon">open_in_new</span>
+            </button>
+        </div>
 
-    <div style="text-align: center; margin-top: 50px;">
-        <img src="../imgs/esperando.png" alt="Esperando a atividade2.0" style="max-width: 80%; height: auto;">
-        <p>Esperando a atividade...</p>
-    </div>
+        <div class="gems-section">
+            <button class="gems-btn">
+                <span class="material-symbols-outlined icon">diamond</span>
+                <span class="text">Veja alguns Gems</span>
+            </button>
+        </div>
+
+        <div class="recent-section">
+            <h3>Navegação do Projeto</h3>
+            <ul class="recent-list">
+                <li><a href="index.html">Página Pessoal (Início)</a></li>
+                <li><a href="disciplinas.html">Disciplinas (Tabela)</a></li>
+                <li><a href="cards.html">Disciplinas (Cards)</a></li>
+                <li><a href="landingpage.html">Landing Page (Atividade)</a></li>
+                <li><a href="replica.html" class="active-link">Réplica Gemini (Atual)</a></li>
+                <li><a href="#">KORE11: Rendimentos 2025...</a></li>
+                <li><a href="#">CSS Display: Valores...</a></li>
+                <li><a href="#">Corpo dos Fungos...</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-footer">
+            <button class="settings-btn">
+                <span class="material-symbols-outlined icon">settings</span>
+                <span class="text">Configurações e ajuda</span>
+            </button>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="top-bar">
+            <div class="top-bar-left">
+                <button class="search-btn" aria-label="Buscar">
+                    <span class="material-symbols-outlined icon">search</span>
+                </button>
+                <h1 class="logo">Gemini</h1>
+            </div>
+            <div class="top-bar-right">
+                <button class="upgrade-btn">
+                    <span class="material-symbols-outlined icon">auto_awesome</span>
+                    <span class="text">Faça upgrade para o Google AI Plus</span>
+                </button>
+                
+                <button class="theme-toggle-btn" aria-label="Alternar tema">
+                    <span class="material-symbols-outlined icon">dark_mode</span>
+                </button>
+                
+                <div class="profile-pic">
+                    <img src="imgs/esperando.png" alt="Perfil do usuário">
+                </div>
+            </div>
+        </header>
+
+        <div class="chat-area">
+            <div class="welcome-message">
+                <h2>Olá, Gustavo</h2>
+            </div>
+
+            <div class="input-container">
+                <div class="input-box">
+                    <input type="text" placeholder="Peça ao Gemini" class="chat-input">
+                    <div class="input-actions">
+                        <button class="action-btn" aria-label="Adicionar">
+                            <span class="material-symbols-outlined icon">add</span>
+                        </button>
+                        <button class="tools-btn">
+                            <span class="material-symbols-outlined icon">build</span>
+                            <span class="text">Ferramentas</span>
+                        </button>
+                        <button class="version-selector">
+                            <span class="text">2.5 Pro</span>
+                            <span class="material-symbols-outlined icon">expand_more</span>
+                        </button>
+                        <button class="mic-btn" aria-label="Microfone">
+                            <span class="material-symbols-outlined icon">mic</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
 </body>
 </html>
